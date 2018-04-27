@@ -1,0 +1,127 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html,
+.body {
+	background: #f3f3f3 !important;
+}
+
+.container.header {
+	background: #f3f3f3;
+}
+
+.body-drip {
+	border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+	//background: #8a8a8a;
+	img {
+		width: 100%;
+	}
+}
+
+.header .columns {
+	padding-bottom: 0;
+}
+
+.header p {
+	color: #ffffff;
+	padding-top: 15px;
+}
+
+.header .wrapper-inner {
+	//padding: 20px;
+}
+
+.header .container {
+	background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+	background: #3b5998 !important;
+	border-color: #3b5998;
+}
+
+table.button.twitter table td {
+	background: #1daced !important;
+	border-color: #1daced;
+}
+
+table.button.google table td {
+	background: #db4a39 !important;
+	border-color: #db4a39;
+}
+
+.wrapper.secondary {
+	background: #f3f3f3;
+}
+
+table.more_boundstart table td a {
+	//background-color: green;
+	background: linear-gradient(to left, #618f2b, #8db71d);
+	border: none;
+	font-size: 18px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: 400;
+	&:hover {
+		cursor: pointer;
+		border: none;
+	}
+}
+
+table.more_boundstart table td {
+	background: transparent;
+	border: none;
+}
+table.more_boundstart:hover table td, table.more_boundstart:visited table td, table.more_boundstart:active table td {
+	border: none;
+	background: transparent;
+}
+.disclaimer {
+	font-size: 13px !important;
+	&.fz {
+		font-size: 16px!important;
+	}
+}
+.lead {
+	font-size: 16px !important;
+}
+
+.lead.mt {
+	margin-top: 20px;
+}
+.link {
+	//color: inherit!important;
+	text-decoration: none !important;
+	font-weight: bold;
+	color: #e13750!important;
+}
+.accent {
+	color: #e13750!important;
+}
+.boundstart-button {
+	color: #fff;
+	background-color: #e13750;
+	padding: 15px 40px;
+	margin-top: 30px!important;
+	margin-bottom: 30px!important;
+	text-align: center;
+	//font-size: 18px;
+	&:hover {
+		color: #fff;
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
+.greet {
+	font-size: 19px !important;
+	font-weight: bold;
+}

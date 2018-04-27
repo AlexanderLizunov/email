@@ -1,0 +1,49 @@
+.header {
+  //background: #8a8a8a;
+  img {
+    width: 100%;
+  }
+}
+
+.lead {
+  font-size: 16px !important;
+  text-align: left;
+  line-height: 24px;
+  a {
+    color: #00b0e1!important;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+.custom-button {
+  text-align: center;
+}
+
+.coupon-img {
+  width: 100%;
+  height: auto;
+}
+
+.visit-title {
+  font-size: 16px;
+
+  color: black;
+}
+
+.learn-more-button {
+ a{
+   background-color: #e13750 !important;
+ }
+  td{
+    border: none !important;
+    background: transparent !important;
+  }
+  color: white;
+  font-size: 18px;
+  height: 30px;
+  line-height: 30px;
+}
